@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/shadow_bg.qm</file>
+        <file alias="ca">locale/shadow_ca.qm</file>
+        <file alias="cs">locale/shadow_cs.qm</file>
+        <file alias="da">locale/shadow_da.qm</file>
+        <file alias="de">locale/shadow_de.qm</file>
+        <file alias="en">locale/shadow_en.qm</file>
+        <file alias="en_US">locale/shadow_en_US.qm</file>
+        <file alias="es">locale/shadow_es.qm</file>
+        <file alias="fi">locale/shadow_fi.qm</file>
+        <file alias="fr_FR">locale/shadow_fr_FR.qm</file>
+        <file alias="it">locale/shadow_it.qm</file>
+        <file alias="ja">locale/shadow_ja.qm</file>
+        <file alias="ko_KR">locale/shadow_ko_KR.qm</file>
+        <file alias="nl">locale/shadow_nl.qm</file>
+        <file alias="pl">locale/shadow_pl.qm</file>
+        <file alias="pt">locale/shadow_pt.qm</file>
+        <file alias="pt_BR">locale/shadow_pt_BR.qm</file>
+        <file alias="ro_RO">locale/shadow_ro_RO.qm</file>
+        <file alias="ru">locale/shadow_ru.qm</file>
+        <file alias="sk">locale/shadow_sk.qm</file>
+        <file alias="sv">locale/shadow_sv.qm</file>
+        <file alias="uk">locale/shadow_uk.qm</file>
+        <file alias="zh_CN">locale/shadow_zh_CN.qm</file>
+        <file alias="zh_TW">locale/shadow_zh_TW.qm</file>
+    </qresource>
+</RCC>
