@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Shadow
+Comment=Shadow P2P Cryptocurrency
+Comment[fr]=Shadow, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Shadow, eşten eşe kriptografik sanal para birimi
+Exec=shadow-qt %u
+Terminal=false
+Type=Application
+Icon=shadow128
+MimeType=x-scheme-handler/shadow;
+Categories=Office;Finance;

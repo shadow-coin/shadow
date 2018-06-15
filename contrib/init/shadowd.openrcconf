@@ -1,0 +1,26 @@
+# /etc/conf.d/shadowd: config file for /etc/init.d/shadowd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/shadow/shadow.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/shadowd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/shadowd.pid"
+
+# Where to write shadowd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/shadowd"
+
+# User and group to own shadowd process
+#BITCOIND_USER="shadow"
+#BITCOIND_GROUP="shadow"
+
+# Path to shadowd executable
+#BITCOIND_BIN="/usr/bin/shadowd"
+
+# Nice value to run shadowd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

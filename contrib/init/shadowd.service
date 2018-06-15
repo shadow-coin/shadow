@@ -1,0 +1,26 @@
+[Unit]
+Description=SHADOW's distributed currency daemon
+After=network.target
+
+[Service]
+User=shadow
+Group=shadow
+
+Type=forking
+PIDFile=/var/lib/shadowd/shadowd.pid
+
+ExecStart=/usr/bin/shadowd -daemon -pid=/var/lib/shadowd/shadowd.pid \
+          -conf=/etc/shadow/shadow.conf -datadir=/var/lib/shadowd
+
+ExecStop=-/usr/bin/shadow-cli -conf=/etc/shadow/shadow.conf \
+         -datadir=/var/lib/shadowd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
